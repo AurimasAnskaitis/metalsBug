@@ -1,8 +1,11 @@
 package a
 
 object A {
-    object B {
-  
-      case class C(a: Int)
+    object B1 {
+        case class C1(a: Int)
+    }
+
+    object B2 {
+      case class C2(a: Int)
     }
   }

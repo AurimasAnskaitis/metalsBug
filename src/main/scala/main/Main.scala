@@ -1,13 +1,10 @@
 package main
 
-import a._
-import a.A._
-
+import a.A
 object Main {
     def main(args: Array[String]): Unit = {
-      val a1 = A.B.C(0)
-      val a2 = B.C(0)
-      println(a1, a2)
+      val a1 = A.B1.C1(1)
+      println(a1)
     }
   
   }
